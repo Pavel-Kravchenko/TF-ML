@@ -3,7 +3,7 @@ This is a repo of transcription factors binding sites project
 
 This pipeline is the part of bioengineering and bioinformatics faculty coursework
 
-The pipeline provides a method to combine single matrix predictions into unified classifier.
+The pipeline provides a method to combine single matrix predictions into a unified classifier.
 
 ## Before you start
 
