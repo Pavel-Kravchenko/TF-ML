@@ -9,7 +9,7 @@ The pipeline provides a method to combine single matrix predictions into a unifi
 
 Make sure that you have installed all components:
 <ul>
-<li>Python 3.6 or upper https://www.python.org/ + (subprocess, matplotlib,pandas,numpy,itertools,seaborn,sklearn,pickle,csv,xgboost,lightgbm ,catboost,collections,operator)
+<li>Python 3.6 or upper https://www.python.org/ + (subprocess, matplotlib,pandas,numpy,sklearn (sklearn.externals))
 <li>Biopython 1.70 or upper http://biopython.org/
 <li>Jupyter 5.4.1 or upper https://jupyter.org/
 <li>MACRO-APE http://opera.autosome.ru/
@@ -23,13 +23,13 @@ Make sure that you have installed all components:
 ### Installation
 
 First of all you have to ```clone``` this directory</br></br>
-```git clone https://github.com/Pavel-Kravchenko/TF-ML/```</br></br>
-Then ```cd``` in TF-ML</br></br>
-```cd TF-ML```</br></br>
+```git clone https://github.com/Pavel-Kravchenko/TFBS-finder/```</br></br>
+Then ```cd``` in TFBS-finder</br></br>
+```cd TFBS-finder```</br></br>
 
 Now you are ready to start.
-Run jupyter notebook
-```jupyter notebook``` and select a needed script.
+Run the script with your .mfa file for selected TF. 
+``` python scanning_tool.py -root `pwd` -mfa [your_mfa_file] -f_name [factor_of_interest] -sarus_h ./sarus/releases/sarus-2.0.1.jar -threshold 0.5 -step 50 -frame 200 ```
 
 
 ## Contact me
